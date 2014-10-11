@@ -1,0 +1,71 @@
+body {
+	background-color: #ffd;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	font-family: 'Indie Flower';
+	font-size: 12pt;
+}
+
+.navbar-brand {
+	color: #2bb;
+	font-family: 'Gloria Hallelujah', Arial;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+.red-text {
+	color: red;
+}
+
+@media screen and (min-width: 768px) {
+	.jumbotron h1 {
+		font-size: 48px;
+	}
+}
+
+.navbar {
+	background-color: #ffd;
+}
+
+.jumbotron {
+	background-color: #2bb;
+}
+
+.jumbotron h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: black;
+}
+
+.jumbotron .btn-primary {
+	background-image: linear-gradient(to bottom, crimson 0px, indianred 100%);
+	background-color: crimson;
+	border-color: crimson;
+	color: #eee;
+}
+
+h1, h2, h3 {
+	color: #2bb;
+}
+
+h2 {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.btn {
+	background-image: linear-gradient(to bottom, #2bb 0px, #2aa 100%);
+	background-color: #2bb;
+	border-color: #2bb;
+	color: #fff;
+}
+
+.btn:hover {
+	background-image: linear-gradient(to bottom, #2bb 0px, #2aa 80%);
+	background-color: #2bb;
+	color: #fff;
+}
+
+.microscopic {
+	font-size: 8pt;
+}
